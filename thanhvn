@@ -1,0 +1,18 @@
+curl 'https://bot-hosting.net/api/freeCoins' \
+  -H 'authority: bot-hosting.net' \
+  -H 'accept: */*' \
+  -H 'accept-language: vi,en;q=0.9' \
+  -H 'authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjkzMTAxODc1MjIwMjUyNjc1MCIsImF2YXRhciI6ImQ4Y2MzZjA0MzVjZTkyYzU3YjJlYWJmZmRjYzA5ZWRhIiwidXNlcm5hbWUiOiJ0aGFuaHZuc3RkMzIxIzYwNjUiLCJqdGkiOiI4ODY4ZWZjOC0wMzE1LTRhZjktOWJhYi0wOTYwYjJhZDg1YTciLCJpYXQiOjE3MDY1MDc2ODgsImV4cCI6MTcwNzcxNzY4OH0.tABCNV3q4Y7QPdxqs4GuFWA-P8kL2vZmZyASIOVpnQg' \
+  -H 'content-type: application/json' \
+  -H 'dnt: 1' \
+  -H 'origin: https://bot-hosting.net' \
+  -H 'referer: https://bot-hosting.net/panel/earn' \
+  -H 'sec-ch-ua: "Not A(Brand";v="99", "Microsoft Edge";v="121", "Chromium";v="121"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0' \
+  --data-raw '{}' \
+  --compressed
